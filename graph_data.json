@@ -1,0 +1,5479 @@
+{
+  "nodes": [
+    {
+      "id": "Ara Construction Site 3",
+      "label": "Ara Construction Site 3",
+      "location": "Oji Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Sand",
+            "amount": 1
+          },
+          "Process Time": "02:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Sand"
+        },
+        {
+          "Input": [
+            {
+              "name": "Concrete",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Fine Sand",
+            "amount": 1
+          },
+          "Process Time": "00:05",
+          "Output Capacity": "",
+          "raw_input_string": "1x Concrete",
+          "raw_output_string": "1x Fine Sand"
+        },
+        {
+          "Input": [
+            {
+              "name": "Concrete",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "06:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Concrete",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "WoodPlank 14ft",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "15:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x WoodPlank 14ft",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "06:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Plastic Pipes 6m",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Plastic Pipes 6m",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "H-Beam 6m",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x H-Beam 6m",
+          "raw_output_string": "Production Speed +3%"
+        }
+      ]
+    },
+    {
+      "id": "Kupa",
+      "label": "Kupa",
+      "location": "Jeju City,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Container",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "\u221e",
+          "Output": {
+            "name": "Pallet",
+            "amount": 4
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Container",
+          "raw_output_string": "4x Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Empty Supply Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "50",
+          "Output": {
+            "name": "Supply Box",
+            "amount": 1
+          },
+          "Process Time": "00:10",
+          "Output Capacity": "",
+          "raw_input_string": "1x Empty Supply Box",
+          "raw_output_string": "1x Supply Box"
+        }
+      ]
+    },
+    {
+      "id": "Concrete Factory",
+      "label": "Concrete Factory",
+      "location": "Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Cement",
+              "amount": 10
+            }
+          ],
+          "Input Capacity": "300",
+          "Output": {
+            "name": "Concrete",
+            "amount": 10
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "10x Cement",
+          "raw_output_string": "10x Concrete"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "300",
+          "Output": {
+            "name": "Concrete",
+            "amount": 10
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "10x Concrete"
+        },
+        {
+          "Input": [
+            {
+              "name": "Sand",
+              "amount": 10
+            }
+          ],
+          "Input Capacity": "300",
+          "Output": {
+            "name": "Concrete",
+            "amount": 10
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "10x Sand",
+          "raw_output_string": "10x Concrete"
+        }
+      ]
+    },
+    {
+      "id": "Gapa Organic Cabbage Farm",
+      "label": "Gapa Organic Cabbage Farm",
+      "location": "Gapa,Oji Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "10",
+          "Output": {
+            "name": "Cabbage Pallet",
+            "amount": 1
+          },
+          "Process Time": "05:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Cabbage Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "+100% Production Speed"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "+100% Production Speed"
+        }
+      ]
+    },
+    {
+      "id": "SRF Power Plant",
+      "label": "SRF Power Plant",
+      "location": "Jeju Island",
+      "production_tables": []
+    },
+    {
+      "id": "Oji Lumbermill",
+      "label": "Oji Lumbermill",
+      "location": "Oji Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Log 20ft",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Wood Plank 14ft",
+            "amount": 4
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Log 20ft",
+          "raw_output_string": "4x Wood Plank 14ft"
+        },
+        {
+          "Input": [
+            {
+              "name": "Oak Log 12ft",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Wood Plank 14ft",
+            "amount": 2
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Oak Log 12ft",
+          "raw_output_string": "2x Wood Plank 14ft"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "+100% production speed"
+        }
+      ]
+    },
+    {
+      "id": "Gapa Golden Corn Farm",
+      "label": "Gapa Golden Corn Farm",
+      "location": "Gapa,Oji Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "10",
+          "Output": {
+            "name": "Corn Pallet",
+            "amount": 1
+          },
+          "Process Time": "05:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Corn Pallet"
+        },
+        {
+          "Input": [],
+          "Input Capacity": "3",
+          "Output": {
+            "name": "Corn Box",
+            "amount": 1
+          },
+          "Process Time": "00:30",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Corn Box"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "+100% Production Speed"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "+100% Production Speed"
+        }
+      ]
+    },
+    {
+      "id": "Gapa Supermarket",
+      "label": "Gapa Supermarket",
+      "location": "Oji Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Water Bottle Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "5",
+          "Output": {},
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Water Bottle Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Rice Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Rice Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pumpkin Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pumpkin Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Cabbage Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Cabbage Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Corn Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Corn Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Orange Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Orange Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Bean Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Bean Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Cheese Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Cheese Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Bread Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Bread Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Meat Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "5",
+          "Output": {},
+          "Process Time": "12:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Meat Box",
+          "raw_output_string": "Food Supply: 30%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet of Toys",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet of Toys",
+          "raw_output_string": ""
+        }
+      ]
+    },
+    {
+      "id": "Gapa Starlight Hemp Farm",
+      "label": "Gapa Starlight Hemp Farm",
+      "location": "Gapa,Oji Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "10",
+          "Output": {
+            "name": "Hemp Pallet",
+            "amount": 1
+          },
+          "Process Time": "05:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Hemp Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "+100% Production Speed"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "+100% Production Speed"
+        }
+      ]
+    },
+    {
+      "id": "Sinchang Warehouse",
+      "label": "Sinchang Warehouse",
+      "location": "Sinchang,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Container",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "\u221e",
+          "Output": {
+            "name": "Pallet",
+            "amount": 4
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Container",
+          "raw_output_string": "4x Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Empty Supply Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "50",
+          "Output": {
+            "name": "Supply Box",
+            "amount": 1
+          },
+          "Process Time": "00:10",
+          "Output Capacity": "",
+          "raw_input_string": "1x Empty Supply Box",
+          "raw_output_string": "1x Supply Box"
+        }
+      ]
+    },
+    {
+      "id": "Oji Gate Warehouse",
+      "label": "Oji Gate Warehouse",
+      "location": "Biyang,Oji Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Container",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "\u221e",
+          "Output": {
+            "name": "Pallet",
+            "amount": 4
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Container",
+          "raw_output_string": "4x Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Empty Supply Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "50",
+          "Output": {
+            "name": "Supply Box",
+            "amount": 1
+          },
+          "Process Time": "00:10",
+          "Output Capacity": "",
+          "raw_input_string": "1x Empty Supply Box",
+          "raw_output_string": "1x Supply Box"
+        }
+      ]
+    },
+    {
+      "id": "Gwangjin Construction Site",
+      "label": "Gwangjin Construction Site",
+      "location": "Oji Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Sand",
+            "amount": 1
+          },
+          "Process Time": "02:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Sand"
+        },
+        {
+          "Input": [
+            {
+              "name": "Concrete",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Fine Sand",
+            "amount": 1
+          },
+          "Process Time": "00:05",
+          "Output Capacity": "",
+          "raw_input_string": "1x Concrete",
+          "raw_output_string": "1x Fine Sand"
+        },
+        {
+          "Input": [
+            {
+              "name": "Concrete",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "06:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Concrete",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "WoodPlank 14ft",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "15:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x WoodPlank 14ft",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "06:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Plastic Pipes 6m",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Plastic Pipes 6m",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "H-Beam 6m",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x H-Beam 6m",
+          "raw_output_string": "Production Speed +3%"
+        }
+      ]
+    },
+    {
+      "id": "Seongsan Sashimi",
+      "label": "Seongsan Sashimi",
+      "location": "Seongsan,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Live Fish",
+              "amount": 2
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "",
+          "Output Capacity": "",
+          "raw_input_string": "2x Live Fish",
+          "raw_output_string": ""
+        }
+      ]
+    },
+    {
+      "id": "Nobong Cement Factory",
+      "label": "Nobong Cement Factory",
+      "location": "NorthernOji Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Limestone",
+              "amount": 10
+            }
+          ],
+          "Input Capacity": "300",
+          "Output": {
+            "name": "Cement",
+            "amount": 10
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "10x Limestone",
+          "raw_output_string": "10x Cement"
+        }
+      ]
+    },
+    {
+      "id": "Nivart Furniture Factory",
+      "label": "Nivart Furniture Factory",
+      "location": "N/A",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "WoodPlank 14ft 5t",
+              "amount": 2
+            }
+          ],
+          "Output": {
+            "name": "Furniture",
+            "amount": 10
+          },
+          "Output Capacity": "unlimited",
+          "Input Capacity": [],
+          "Process Time": "",
+          "raw_input_string": "2x WoodPlank 14ft 5t",
+          "raw_output_string": "10x Furniture"
+        },
+        {
+          "Input": [
+            {
+              "name": "Plastic",
+              "amount": 1
+            }
+          ],
+          "Output": {
+            "name": "Furniture",
+            "amount": 10
+          },
+          "Output Capacity": "unlimited",
+          "Input Capacity": [],
+          "Process Time": "",
+          "raw_input_string": "1x Plastic",
+          "raw_output_string": "10x Furniture"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Output": {},
+          "Output Capacity": "10%",
+          "Input Capacity": [],
+          "Process Time": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "Production Speed"
+        }
+      ]
+    },
+    {
+      "id": "Ara Construction Site 2",
+      "label": "Ara Construction Site 2",
+      "location": "Oji Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Sand",
+            "amount": 1
+          },
+          "Process Time": "02:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Sand"
+        },
+        {
+          "Input": [
+            {
+              "name": "Concrete",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Fine Sand",
+            "amount": 1
+          },
+          "Process Time": "00:05",
+          "Output Capacity": "",
+          "raw_input_string": "1x Concrete",
+          "raw_output_string": "1x Fine Sand"
+        },
+        {
+          "Input": [
+            {
+              "name": "Concrete",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "06:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Concrete",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "WoodPlank 14ft",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "15:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x WoodPlank 14ft",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "06:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Plastic Pipes 6m",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Plastic Pipes 6m",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "H-Beam 6m",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x H-Beam 6m",
+          "raw_output_string": "Production Speed +3%"
+        }
+      ]
+    },
+    {
+      "id": "BurgerJoint Seo-Gui-Po",
+      "label": "BurgerJoint Seo-Gui-Po",
+      "location": "Seoguipo,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Meat Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "30",
+          "Output": {
+            "name": "Signature Burger",
+            "amount": 10
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Meat Box",
+          "raw_output_string": "10x Signature Burger"
+        },
+        {
+          "Input": [
+            {
+              "name": "Cheese Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "30",
+          "Output": {
+            "name": "Signature Burger",
+            "amount": 10
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Cheese Box",
+          "raw_output_string": "10x Signature Burger"
+        }
+      ]
+    },
+    {
+      "id": "Three Water Factory",
+      "label": "Three Water Factory",
+      "location": "WesternJeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Container",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "50",
+          "Output": {
+            "name": "Water Bottle Pallet",
+            "amount": 8
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Container",
+          "raw_output_string": "8x Water Bottle Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "50",
+          "Output": {
+            "name": "Water Bottle Pallet",
+            "amount": 2
+          },
+          "Process Time": "00:30",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "2x Water Bottle Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "05:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": ""
+        }
+      ]
+    },
+    {
+      "id": "Jeju Construction Site",
+      "label": "Jeju Construction Site",
+      "location": "Oji Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Sand",
+            "amount": 1
+          },
+          "Process Time": "02:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Sand"
+        },
+        {
+          "Input": [
+            {
+              "name": "Concrete",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Fine Sand",
+            "amount": 1
+          },
+          "Process Time": "00:05",
+          "Output Capacity": "",
+          "raw_input_string": "1x Concrete",
+          "raw_output_string": "1x Fine Sand"
+        },
+        {
+          "Input": [
+            {
+              "name": "Concrete",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "06:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Concrete",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "WoodPlank 14ft",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "15:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x WoodPlank 14ft",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "06:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Plastic Pipes 6m",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Plastic Pipes 6m",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "H-Beam 6m",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x H-Beam 6m",
+          "raw_output_string": "Production Speed +3%"
+        }
+      ]
+    },
+    {
+      "id": "Namwon Corn Farm",
+      "label": "Namwon Corn Farm",
+      "location": "SouthernJeju Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "10",
+          "Output": {
+            "name": "Corn Pallet",
+            "amount": 1
+          },
+          "Process Time": "05:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Corn Pallet"
+        },
+        {
+          "Input": [],
+          "Input Capacity": "3",
+          "Output": {
+            "name": "Corn Box",
+            "amount": 1
+          },
+          "Process Time": "00:30",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Corn Box"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "+100% Production Speed"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "+100% Production Speed"
+        }
+      ]
+    },
+    {
+      "id": "Sangdo Lumbermill",
+      "label": "Sangdo Lumbermill",
+      "location": "Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Log 20ft",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Wood Plank 14ft",
+            "amount": 4
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Log 20ft",
+          "raw_output_string": "4x Wood Plank 14ft"
+        },
+        {
+          "Input": [
+            {
+              "name": "Oak Log 12ft",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Wood Plank 14ft",
+            "amount": 2
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Oak Log 12ft",
+          "raw_output_string": "2x Wood Plank 14ft"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "+100% production speed"
+        }
+      ]
+    },
+    {
+      "id": "Ranch",
+      "label": "Ranch",
+      "location": "WesternJeju Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "200",
+          "Output": {
+            "name": "Milk",
+            "amount": 1
+          },
+          "Process Time": "02:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Milk"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "+100% Production Speed"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "+100% Production Speed"
+        }
+      ]
+    },
+    {
+      "id": "Jeoji Plastic",
+      "label": "Jeoji Plastic",
+      "location": "WesternJeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Oil",
+              "amount": 20
+            }
+          ],
+          "Input Capacity": "200",
+          "Output": {
+            "name": "Plastic",
+            "amount": 20
+          },
+          "Process Time": "03:00",
+          "Output Capacity": "",
+          "raw_input_string": "20x Oil",
+          "raw_output_string": "20x Plastic"
+        },
+        {
+          "Input": [
+            {
+              "name": "Oil",
+              "amount": 20
+            },
+            {
+              "name": "Container",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "200",
+          "Output": {
+            "name": "Plastic Pipes 6m",
+            "amount": 20
+          },
+          "Process Time": "03:00",
+          "Output Capacity": "",
+          "raw_input_string": "20x Oil 1x Container",
+          "raw_output_string": "20x Plastic Pipes 6m"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "+50% Production Speed"
+        }
+      ]
+    },
+    {
+      "id": "Terra Factory",
+      "label": "Terra Factory",
+      "location": "South-central coast ofOji Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Steel Coil",
+              "amount": 3
+            },
+            {
+              "name": "H-Beam 6m",
+              "amount": 2
+            },
+            {
+              "name": "Container, 20ft",
+              "amount": 2
+            },
+            {
+              "name": "Fuel",
+              "amount": 1
+            },
+            {
+              "name": "Oil",
+              "amount": 2
+            },
+            {
+              "name": "Plastic Pallet",
+              "amount": 2
+            }
+          ],
+          "Input Capacity": "5",
+          "Output": {
+            "name": "Terra",
+            "amount": 1
+          },
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "3x Steel Coil 2x H-Beam 6M 2x Container 20ft 1x Fuel 2x Oil 2x Plastic Pallet",
+          "raw_output_string": "1x Terra"
+        }
+      ]
+    },
+    {
+      "id": "Gangjung Supermarket",
+      "label": "Gangjung Supermarket",
+      "location": "Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Water Bottle Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "5",
+          "Output": {},
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Water Bottle Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Rice Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Rice Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pumpkin Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pumpkin Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Cabbage Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Cabbage Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Corn Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Corn Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Orange Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Orange Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Bean Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Bean Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Cheese Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Cheese Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Bread Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Bread Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Meat Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "5",
+          "Output": {},
+          "Process Time": "12:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Meat Box",
+          "raw_output_string": "Food Supply: 30%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet of Toys",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet of Toys",
+          "raw_output_string": ""
+        }
+      ]
+    },
+    {
+      "id": "Steel Mill",
+      "label": "Steel Mill",
+      "location": "Oji Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Coal",
+              "amount": 30
+            },
+            {
+              "name": "Iron Ore",
+              "amount": 20
+            },
+            {
+              "name": "Limestone",
+              "amount": 5
+            }
+          ],
+          "Input Capacity": "30",
+          "Output": {
+            "name": "Steel Coil",
+            "amount": 1
+          },
+          "Process Time": "02:00",
+          "Output Capacity": "",
+          "raw_input_string": "30x Coal 20x Iron Ore 5x Limestone",
+          "raw_output_string": "1x Steel Coil"
+        }
+      ]
+    },
+    {
+      "id": "Dasa Harbor",
+      "label": "Dasa Harbor",
+      "location": "Oji Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "40",
+          "Output": {
+            "name": "Container",
+            "amount": 1
+          },
+          "Output Capacity": "",
+          "Process Time": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Container"
+        }
+      ]
+    },
+    {
+      "id": "Oedo Warehouse",
+      "label": "Oedo Warehouse",
+      "location": "Oedo,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Container",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "\u221e",
+          "Output": {
+            "name": "Pallet",
+            "amount": 4
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Container",
+          "raw_output_string": "4x Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Empty Supply Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "50",
+          "Output": {
+            "name": "Supply Box",
+            "amount": 1
+          },
+          "Process Time": "00:10",
+          "Output Capacity": "",
+          "raw_input_string": "1x Empty Supply Box",
+          "raw_output_string": "1x Supply Box"
+        }
+      ]
+    },
+    {
+      "id": "Seoguipo Construction Site 1",
+      "label": "Seoguipo Construction Site 1",
+      "location": "Jeju Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Sand",
+            "amount": 1
+          },
+          "Process Time": "02:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Sand"
+        },
+        {
+          "Input": [
+            {
+              "name": "Concrete",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Fine Sand",
+            "amount": 1
+          },
+          "Process Time": "00:05",
+          "Output Capacity": "",
+          "raw_input_string": "1x Concrete",
+          "raw_output_string": "1x Fine Sand"
+        },
+        {
+          "Input": [
+            {
+              "name": "Concrete",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "06:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Concrete",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "WoodPlank 14ft",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "15:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x WoodPlank 14ft",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "06:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Plastic Pipes 6m",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Plastic Pipes 6m",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "H-Beam 6m",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x H-Beam 6m",
+          "raw_output_string": "Production Speed +3%"
+        }
+      ]
+    },
+    {
+      "id": "Ansan Racecar Factory",
+      "label": "Ansan Racecar Factory",
+      "location": "CentralAnsan Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Steel Coil",
+              "amount": 1
+            },
+            {
+              "name": "Box Pallet A",
+              "amount": 6
+            },
+            {
+              "name": "Container, 20ft",
+              "amount": 2
+            }
+          ],
+          "Input Capacity": "2",
+          "Output": {
+            "name": "Formula SCM",
+            "amount": 1
+          },
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Steel Coil 6x Box Pallet A 2x Container 20ft",
+          "raw_output_string": "1x Formula SCM"
+        }
+      ]
+    },
+    {
+      "id": "Sinchang Pumpkin Farm",
+      "label": "Sinchang Pumpkin Farm",
+      "location": "Sinchang,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "10",
+          "Output": {
+            "name": "Pumpkin Pallet",
+            "amount": 1
+          },
+          "Process Time": "05:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Pumpkin Pallet"
+        },
+        {
+          "Input": [],
+          "Input Capacity": "3",
+          "Output": {
+            "name": "Pumpkin Box",
+            "amount": 1
+          },
+          "Process Time": "00:30",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Pumpkin Box"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "+100% Production Speed"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "+100% Production Speed"
+        }
+      ]
+    },
+    {
+      "id": "Hallim Supermarket",
+      "label": "Hallim Supermarket",
+      "location": "Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Water Bottle Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "5",
+          "Output": {},
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Water Bottle Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Rice Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Rice Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pumpkin Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pumpkin Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Cabbage Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Cabbage Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Corn Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Corn Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Orange Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Orange Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Bean Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Bean Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Cheese Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Cheese Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Bread Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Bread Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Meat Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "5",
+          "Output": {},
+          "Process Time": "12:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Meat Box",
+          "raw_output_string": "Food Supply: 30%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet of Toys",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet of Toys",
+          "raw_output_string": ""
+        }
+      ]
+    },
+    {
+      "id": "Pizza Seo-Gui-Po",
+      "label": "Pizza Seo-Gui-Po",
+      "location": "Seoguipo,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Meat Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "30",
+          "Output": {
+            "name": "Premium Pizza Box",
+            "amount": 20
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Meat Box",
+          "raw_output_string": "20x Premium Pizza Box"
+        },
+        {
+          "Input": [
+            {
+              "name": "Cheese Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "30",
+          "Output": {
+            "name": "Premium Pizza Box",
+            "amount": 20
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Cheese Box",
+          "raw_output_string": "20x Premium Pizza Box"
+        }
+      ]
+    },
+    {
+      "id": "Aewol Pumpkin Farm",
+      "label": "Aewol Pumpkin Farm",
+      "location": "Sinchang,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "10",
+          "Output": {
+            "name": "Pumpkin Pallet",
+            "amount": 1
+          },
+          "Process Time": "05:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Pumpkin Pallet"
+        },
+        {
+          "Input": [],
+          "Input Capacity": "3",
+          "Output": {
+            "name": "Pumpkin Box",
+            "amount": 1
+          },
+          "Process Time": "00:30",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Pumpkin Box"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "+100% Production Speed"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "+100% Production Speed"
+        }
+      ]
+    },
+    {
+      "id": "Hachon Orange Farm",
+      "label": "Hachon Orange Farm",
+      "location": "Pyosun Fishing Village,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "10",
+          "Output": {
+            "name": "Orange Pallet",
+            "amount": 1
+          },
+          "Process Time": "05:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Orange Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "+100% Production Speed"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "+100% Production Speed"
+        }
+      ]
+    },
+    {
+      "id": "Toy Factory",
+      "label": "Toy Factory",
+      "location": "Gujwa,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Plastic",
+              "amount": 10
+            },
+            {
+              "name": "Container",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Pallet of Toys",
+            "amount": 20
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "10x Plastic 1x Container",
+          "raw_output_string": "20x Pallet of Toys"
+        },
+        {
+          "Input": [
+            {
+              "name": "Plastic",
+              "amount": 3
+            },
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Pallet of Toys",
+            "amount": 6
+          },
+          "Process Time": "00:10",
+          "Output Capacity": "",
+          "raw_input_string": "3x Plastic 1x Pallet",
+          "raw_output_string": "6x Pallet of Toys"
+        }
+      ]
+    },
+    {
+      "id": "Ara Supermarket",
+      "label": "Ara Supermarket",
+      "location": "Oji Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Water Bottle Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "5",
+          "Output": {
+            "name": "Food Supply: 20%",
+            "amount": 1
+          },
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Water Bottle Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Rice Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {
+            "name": "Food Supply: 10%",
+            "amount": 1
+          },
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Rice Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pumpkin Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {
+            "name": "Food Supply: 10%",
+            "amount": 1
+          },
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pumpkin Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Cabbage Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {
+            "name": "Food Supply: 10%",
+            "amount": 1
+          },
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Cabbage Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Corn Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {
+            "name": "Food Supply: 10%",
+            "amount": 1
+          },
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Corn Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Orange Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {
+            "name": "Food Supply: 10%",
+            "amount": 1
+          },
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Orange Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Bean Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {
+            "name": "Food Supply: 10%",
+            "amount": 1
+          },
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Bean Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Cheese Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {
+            "name": "Food Supply: 20%",
+            "amount": 1
+          },
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Cheese Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Bread Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {
+            "name": "Food Supply: 20%",
+            "amount": 1
+          },
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Bread Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Meat Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "5",
+          "Output": {
+            "name": "Food Supply: 30%",
+            "amount": 1
+          },
+          "Process Time": "12:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Meat Box",
+          "raw_output_string": "Food Supply: 30%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet of Toys",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet of Toys",
+          "raw_output_string": ""
+        }
+      ]
+    },
+    {
+      "id": "Gasi Ranch",
+      "label": "Gasi Ranch",
+      "location": "EasternJeju Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "10",
+          "Output": {
+            "name": "Milk",
+            "amount": 1
+          },
+          "Process Time": "02:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Milk"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "+100% Production Speed"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "+100% Production Speed"
+        }
+      ]
+    },
+    {
+      "id": "Jeju Harbor",
+      "label": "Jeju Harbor",
+      "location": "Jeju Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "80",
+          "Output": {
+            "name": "Container",
+            "amount": 1
+          },
+          "Output Capacity": "",
+          "Process Time": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Container"
+        }
+      ]
+    },
+    {
+      "id": "Jeju Bakery",
+      "label": "Jeju Bakery",
+      "location": "N/A",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Container",
+              "amount": 1
+            }
+          ],
+          "Output": {
+            "name": "Bread Pallet",
+            "amount": 4
+          },
+          "Input Capacity": "",
+          "Output Capacity": "50",
+          "Process Time": "Every 1:00",
+          "raw_input_string": "1x Container",
+          "raw_output_string": "4x Bread Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Container",
+              "amount": 1
+            }
+          ],
+          "Output": {
+            "name": "Bread Box",
+            "amount": 20
+          },
+          "Input Capacity": "",
+          "Output Capacity": "100",
+          "Process Time": "Every 1:00",
+          "raw_input_string": "1x Container",
+          "raw_output_string": "20x Bread Box"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Output": {
+            "name": "Bread Pallet",
+            "amount": 1
+          },
+          "Input Capacity": "",
+          "Output Capacity": "50",
+          "Process Time": "Every 0:10",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "1x Bread Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Output": {
+            "name": "Bread Box",
+            "amount": 4
+          },
+          "Input Capacity": "",
+          "Output Capacity": "100",
+          "Process Time": "Every 0:10",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "4x Bread Box"
+        }
+      ]
+    },
+    {
+      "id": "Gapa Bean Haven Farm",
+      "label": "Gapa Bean Haven Farm",
+      "location": "Gapa,Oji Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "10",
+          "Output": {
+            "name": "Bean Pallet",
+            "amount": 1
+          },
+          "Process Time": "05:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Bean Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "+100% Production Speed"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "+100% Production Speed"
+        }
+      ]
+    },
+    {
+      "id": "Sanho Oil Refinery",
+      "label": "Sanho Oil Refinery",
+      "location": "South-west coast ofOji Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Crude Oil",
+              "amount": 5
+            }
+          ],
+          "Output": {
+            "name": "Fuel",
+            "amount": 10
+          },
+          "Output Capacity": "500 units",
+          "Input Capacity": [],
+          "Process Time": "",
+          "raw_input_string": "5x Crude Oil",
+          "raw_output_string": "10x Fuel"
+        },
+        {
+          "Input": [
+            {
+              "name": "Crude Oil",
+              "amount": 10
+            },
+            {
+              "name": "Container",
+              "amount": 1
+            }
+          ],
+          "Output": {
+            "name": "Fuel",
+            "amount": 30
+          },
+          "Output Capacity": "500 units",
+          "Input Capacity": [],
+          "Process Time": "",
+          "raw_input_string": "10x Crude Oil 1x Container",
+          "raw_output_string": "30x Fuel"
+        },
+        {
+          "Input": [
+            {
+              "name": "Crude Oil",
+              "amount": 2
+            }
+          ],
+          "Output": {
+            "name": "Oil",
+            "amount": 4
+          },
+          "Output Capacity": "500 units",
+          "Input Capacity": [],
+          "Process Time": "",
+          "raw_input_string": "2x Crude Oil",
+          "raw_output_string": "4x Oil"
+        },
+        {
+          "Input": [
+            {
+              "name": "Crude Oil",
+              "amount": 10
+            },
+            {
+              "name": "Container",
+              "amount": 1
+            }
+          ],
+          "Output": {
+            "name": "Oil",
+            "amount": 30
+          },
+          "Output Capacity": "500 units",
+          "Input Capacity": [],
+          "Process Time": "",
+          "raw_input_string": "10x Crude Oil 1x Container",
+          "raw_output_string": "30x Oil"
+        }
+      ]
+    },
+    {
+      "id": "Seoguipo Construction Site 3",
+      "label": "Seoguipo Construction Site 3",
+      "location": "Jeju Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Sand",
+            "amount": 1
+          },
+          "Process Time": "02:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Sand"
+        },
+        {
+          "Input": [
+            {
+              "name": "Concrete",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Fine Sand",
+            "amount": 1
+          },
+          "Process Time": "00:05",
+          "Output Capacity": "",
+          "raw_input_string": "1x Concrete",
+          "raw_output_string": "1x Fine Sand"
+        },
+        {
+          "Input": [
+            {
+              "name": "Concrete",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "06:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Concrete",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "WoodPlank 14ft",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "15:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x WoodPlank 14ft",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "06:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Plastic Pipes 6m",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Plastic Pipes 6m",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "H-Beam 6m",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x H-Beam 6m",
+          "raw_output_string": "Production Speed +3%"
+        }
+      ]
+    },
+    {
+      "id": "Gangjung Warehouse",
+      "label": "Gangjung Warehouse",
+      "location": "Gangjung,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Container",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "\u221e",
+          "Output": {
+            "name": "Pallet",
+            "amount": 4
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Container",
+          "raw_output_string": "4x Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Empty Supply Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "50",
+          "Output": {
+            "name": "Supply Box",
+            "amount": 1
+          },
+          "Process Time": "00:10",
+          "Output Capacity": "",
+          "raw_input_string": "1x Empty Supply Box",
+          "raw_output_string": "1x Supply Box"
+        }
+      ]
+    },
+    {
+      "id": "Seongsan Supermarket",
+      "label": "Seongsan Supermarket",
+      "location": "Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Water Bottle Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "5",
+          "Output": {},
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Water Bottle Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Rice Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Rice Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pumpkin Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pumpkin Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Cabbage Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Cabbage Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Corn Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Corn Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Orange Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Orange Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Bean Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Bean Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Cheese Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Cheese Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Bread Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Bread Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Meat Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "5",
+          "Output": {},
+          "Process Time": "12:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Meat Box",
+          "raw_output_string": "Food Supply: 30%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet of Toys",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet of Toys",
+          "raw_output_string": ""
+        }
+      ]
+    },
+    {
+      "id": "Yeongil Drilling Site",
+      "label": "Yeongil Drilling Site",
+      "location": "Oji Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "300",
+          "Output": {
+            "name": "Crude Oil",
+            "amount": 1
+          },
+          "Process Time": "02:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Crude Oil"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 5
+            },
+            {
+              "name": "Wood Plank 14ft 5t",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "300",
+          "Output": {
+            "name": "Crude Oil",
+            "amount": 20
+          },
+          "Process Time": "00:30",
+          "Output Capacity": "",
+          "raw_input_string": "5x Fuel 1x Wood Plank 14ft 5t",
+          "raw_output_string": "20x Crude Oil"
+        }
+      ]
+    },
+    {
+      "id": "1100 Rest Area",
+      "label": "1100 Rest Area",
+      "location": "Mountaintop ofJeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Container",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "\u221e",
+          "Output": {
+            "name": "Pallet",
+            "amount": 4
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Container",
+          "raw_output_string": "4x Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Empty Supply Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "50",
+          "Output": {
+            "name": "Supply Box",
+            "amount": 1
+          },
+          "Process Time": "00:10",
+          "Output Capacity": "",
+          "raw_input_string": "1x Empty Supply Box",
+          "raw_output_string": "1x Supply Box"
+        }
+      ]
+    },
+    {
+      "id": "Gwangjin Mines",
+      "label": "Gwangjin Mines",
+      "location": "Oji Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "200",
+          "Output": {
+            "name": "Coal",
+            "amount": 1
+          },
+          "Process Time": "05:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Coal"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 3
+            },
+            {
+              "name": "WoodPlank 14ft",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "200",
+          "Output": {
+            "name": "Coal",
+            "amount": 30
+          },
+          "Process Time": "00:30",
+          "Output Capacity": "",
+          "raw_input_string": "3x Fuel 1x Woodplank 14ft",
+          "raw_output_string": "30x Coal"
+        }
+      ]
+    },
+    {
+      "id": "Hanon Rice Farm",
+      "label": "Hanon Rice Farm",
+      "location": "Gangjung,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "10",
+          "Output": {
+            "name": "Rice Pallet",
+            "amount": 1
+          },
+          "Process Time": "05:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Rice Pallet"
+        },
+        {
+          "Input": [],
+          "Input Capacity": "3",
+          "Output": {
+            "name": "Rice",
+            "amount": 1
+          },
+          "Process Time": "00:30",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Rice"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "+100% Production Speed"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "+100% Production Speed"
+        }
+      ]
+    },
+    {
+      "id": "Pizza Jeju",
+      "label": "Pizza Jeju",
+      "location": "Jeju City,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Meat Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "30",
+          "Output": {
+            "name": "Premium Pizza Box",
+            "amount": 20
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Meat Box",
+          "raw_output_string": "20x Premium Pizza Box"
+        },
+        {
+          "Input": [
+            {
+              "name": "Cheese Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "30",
+          "Output": {
+            "name": "Premium Pizza Box",
+            "amount": 20
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Cheese Box",
+          "raw_output_string": "20x Premium Pizza Box"
+        }
+      ]
+    },
+    {
+      "id": "Sangdo Corn Farm",
+      "label": "Sangdo Corn Farm",
+      "location": "Seongsan,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "10",
+          "Output": {
+            "name": "Corn Pallet",
+            "amount": 1
+          },
+          "Process Time": "05:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Corn Pallet"
+        },
+        {
+          "Input": [],
+          "Input Capacity": "3",
+          "Output": {
+            "name": "Corn Box",
+            "amount": 1
+          },
+          "Process Time": "00:30",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Corn Box"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "+100% Production Speed"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "+100% Production Speed"
+        }
+      ]
+    },
+    {
+      "id": "Seongsan Warehouse",
+      "label": "Seongsan Warehouse",
+      "location": "Seongsan,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Container",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "\u221e",
+          "Output": {
+            "name": "Pallet",
+            "amount": 4
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Container",
+          "raw_output_string": "4x Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Empty Supply Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "50",
+          "Output": {
+            "name": "Supply Box",
+            "amount": 1
+          },
+          "Process Time": "00:10",
+          "Output Capacity": "",
+          "raw_input_string": "1x Empty Supply Box",
+          "raw_output_string": "1x Supply Box"
+        }
+      ]
+    },
+    {
+      "id": "Ara Construction Site 1",
+      "label": "Ara Construction Site 1",
+      "location": "Oji Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Sand",
+            "amount": 1
+          },
+          "Process Time": "02:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Sand"
+        },
+        {
+          "Input": [
+            {
+              "name": "Concrete",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Fine Sand",
+            "amount": 1
+          },
+          "Process Time": "00:05",
+          "Output Capacity": "",
+          "raw_input_string": "1x Concrete",
+          "raw_output_string": "1x Fine Sand"
+        },
+        {
+          "Input": [
+            {
+              "name": "Concrete",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "06:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Concrete",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "WoodPlank 14ft",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "15:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x WoodPlank 14ft",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "06:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Plastic Pipes 6m",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Plastic Pipes 6m",
+          "raw_output_string": "Production Speed +3%"
+        },
+        {
+          "Input": [
+            {
+              "name": "H-Beam 6m",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "10:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x H-Beam 6m",
+          "raw_output_string": "Production Speed +3%"
+        }
+      ]
+    },
+    {
+      "id": "Jeju Sashimi",
+      "label": "Jeju Sashimi",
+      "location": "Jeju City,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Live Fish",
+              "amount": 2
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "",
+          "Output Capacity": "",
+          "raw_input_string": "2x Live Fish",
+          "raw_output_string": ""
+        }
+      ]
+    },
+    {
+      "id": "Gangjung Sashimi",
+      "label": "Gangjung Sashimi",
+      "location": "Gangjung,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Live Fish",
+              "amount": 2
+            }
+          ],
+          "Input Capacity": "",
+          "Output": {},
+          "Process Time": "",
+          "Output Capacity": "",
+          "raw_input_string": "2x Live Fish",
+          "raw_output_string": ""
+        }
+      ]
+    },
+    {
+      "id": "BurgerJoint Jeju",
+      "label": "BurgerJoint Jeju",
+      "location": "Jeju City,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Meat Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "30",
+          "Output": {
+            "name": "Signature Burger",
+            "amount": 10
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Meat Box",
+          "raw_output_string": "10x Signature Burger"
+        },
+        {
+          "Input": [
+            {
+              "name": "Cheese Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "30",
+          "Output": {
+            "name": "Signature Burger",
+            "amount": 10
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Cheese Box",
+          "raw_output_string": "10x Signature Burger"
+        }
+      ]
+    },
+    {
+      "id": "Overseas Imports Company",
+      "label": "Overseas Imports Company",
+      "location": "Jeju Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "30",
+          "Output": {
+            "name": "Container",
+            "amount": 1
+          },
+          "Output Capacity": "",
+          "Process Time": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Container"
+        }
+      ]
+    },
+    {
+      "id": "Iseungag",
+      "label": "Iseungag",
+      "location": "Jeju Island",
+      "production_tables": [
+        {
+          "Input": [],
+          "Input Capacity": "20",
+          "Output": {
+            "name": "Log 20ft",
+            "amount": 1
+          },
+          "Process Time": "05:00",
+          "Output Capacity": "",
+          "raw_input_string": "",
+          "raw_output_string": "1x Log 20ft"
+        },
+        {
+          "Input": [
+            {
+              "name": "Fuel",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "20",
+          "Output": {
+            "name": "Log 20ft",
+            "amount": 1
+          },
+          "Process Time": "05:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Fuel",
+          "raw_output_string": "1x Log 20ft"
+        }
+      ]
+    },
+    {
+      "id": "Gujwa Meat Factory",
+      "label": "Gujwa Meat Factory",
+      "location": "Gujwa,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Container",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Meat Box",
+            "amount": 20
+          },
+          "Process Time": "00:10",
+          "Output Capacity": "",
+          "raw_input_string": "1x Container",
+          "raw_output_string": "20x Meat Box"
+        }
+      ]
+    },
+    {
+      "id": "Jeju Supermarket",
+      "label": "Jeju Supermarket",
+      "location": "Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Water Bottle Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "5",
+          "Output": {},
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Water Bottle Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Rice Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Rice Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pumpkin Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pumpkin Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Cabbage Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Cabbage Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Corn Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Corn Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Orange Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Orange Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Bean Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "30:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Bean Pallet",
+          "raw_output_string": "Food Supply: 10%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Cheese Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Cheese Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Bread Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "40:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Bread Pallet",
+          "raw_output_string": "Food Supply: 20%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Meat Box",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "5",
+          "Output": {},
+          "Process Time": "12:00",
+          "Output Capacity": "",
+          "raw_input_string": "1x Meat Box",
+          "raw_output_string": "Food Supply: 30%"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet of Toys",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "3",
+          "Output": {},
+          "Process Time": "",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet of Toys",
+          "raw_output_string": ""
+        }
+      ]
+    },
+    {
+      "id": "Dongsan Quarry",
+      "label": "Dongsan Quarry",
+      "location": "Oji Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Limestone Rock",
+              "amount": 10
+            }
+          ],
+          "Input Capacity": "300",
+          "Output": {
+            "name": "Limestone",
+            "amount": 5
+          },
+          "Process Time": "01:00",
+          "Output Capacity": "",
+          "raw_input_string": "10x Limestone Rock",
+          "raw_output_string": "5x Limestone"
+        }
+      ]
+    },
+    {
+      "id": "Gujwa Food Factory",
+      "label": "Gujwa Food Factory",
+      "location": "Gujwa,Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Container",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Airline Meal Pallet",
+            "amount": 5
+          },
+          "Process Time": "00:30",
+          "Output Capacity": "",
+          "raw_input_string": "1x Container",
+          "raw_output_string": "5x Airline Meal Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Pallet",
+              "amount": 1
+            }
+          ],
+          "Input Capacity": "100",
+          "Output": {
+            "name": "Airline Meal Pallet",
+            "amount": 1
+          },
+          "Process Time": "00:10",
+          "Output Capacity": "",
+          "raw_input_string": "1x Pallet",
+          "raw_output_string": "1x Airline Meal Pallet"
+        }
+      ]
+    },
+    {
+      "id": "Daily Cheese Inc.",
+      "label": "Daily Cheese Inc.",
+      "location": "Jeju Island",
+      "production_tables": [
+        {
+          "Input": [
+            {
+              "name": "Milk",
+              "amount": 1
+            }
+          ],
+          "Output": {
+            "name": "Cheese Pallet",
+            "amount": 1
+          },
+          "Output Capacity": "100",
+          "Process Time": "00:10",
+          "Input Capacity": [],
+          "raw_input_string": "1x Milk",
+          "raw_output_string": "1x Cheese Pallet"
+        },
+        {
+          "Input": [
+            {
+              "name": "Milk",
+              "amount": 1
+            }
+          ],
+          "Output": {
+            "name": "Cheese Box",
+            "amount": 5
+          },
+          "Output Capacity": "100",
+          "Process Time": "00:10",
+          "Input Capacity": [],
+          "raw_input_string": "1x Milk",
+          "raw_output_string": "5x Cheese Box"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "Gapa Golden Corn Farm",
+      "to": "Hallim Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Gasi Ranch",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Ranch",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Gapa Organic Cabbage Farm",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Overseas Imports Company",
+      "to": "Sanho Oil Refinery",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Gujwa Meat Factory",
+      "to": "BurgerJoint Seo-Gui-Po",
+      "label": "Meat Box (1x)"
+    },
+    {
+      "from": "Sangdo Corn Farm",
+      "to": "Gangjung Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Jeju Harbor",
+      "to": "Oedo Warehouse",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Three Water Factory",
+      "to": "Gapa Supermarket",
+      "label": "Water Bottle Pallet (1x)"
+    },
+    {
+      "from": "Daily Cheese Inc.",
+      "to": "Jeju Supermarket",
+      "label": "Cheese Pallet (1x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Gapa Starlight Hemp Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Namwon Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Overseas Imports Company",
+      "to": "Seongsan Warehouse",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Dongsan Quarry",
+      "to": "Nobong Cement Factory",
+      "label": "Limestone (10x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Sangdo Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Gapa Bean Haven Farm",
+      "to": "Hallim Supermarket",
+      "label": "Bean Pallet (1x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Gujwa Food Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Iseungag",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Gapa Golden Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Hachon Orange Farm",
+      "to": "Seongsan Supermarket",
+      "label": "Orange Pallet (1x)"
+    },
+    {
+      "from": "Gapa Organic Cabbage Farm",
+      "to": "Jeju Supermarket",
+      "label": "Cabbage Pallet (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Gasi Ranch",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Gujwa Food Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Gapa Golden Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Hanon Rice Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Gapa Bean Haven Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Jeju Construction Site",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Jeoji Plastic",
+      "to": "Seoguipo Construction Site 1",
+      "label": "Plastic Pipes 6m (1x)"
+    },
+    {
+      "from": "Overseas Imports Company",
+      "to": "Oedo Warehouse",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Jeju Harbor",
+      "to": "Gujwa Food Factory",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Jeju Harbor",
+      "to": "Sinchang Warehouse",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Namwon Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Jeoji Plastic",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Ara Construction Site 3",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Concrete Factory",
+      "to": "Jeju Construction Site",
+      "label": "Concrete (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Gapa Golden Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Gapa Bean Haven Farm",
+      "to": "Gapa Supermarket",
+      "label": "Bean Pallet (1x)"
+    },
+    {
+      "from": "Jeju Bakery",
+      "to": "Ara Supermarket",
+      "label": "Bread Pallet (1x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Ranch",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Hanon Rice Farm",
+      "to": "Gapa Supermarket",
+      "label": "Rice Pallet (1x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Sangdo Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Jeju Bakery",
+      "to": "Gangjung Supermarket",
+      "label": "Bread Pallet (1x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Gapa Organic Cabbage Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Sangdo Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Dasa Harbor",
+      "to": "Seongsan Warehouse",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Three Water Factory",
+      "to": "Gangjung Supermarket",
+      "label": "Water Bottle Pallet (1x)"
+    },
+    {
+      "from": "Overseas Imports Company",
+      "to": "Oji Gate Warehouse",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Gapa Starlight Hemp Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Hachon Orange Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Gasi Ranch",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Sinchang Pumpkin Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Ranch",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Jeoji Plastic",
+      "to": "Ara Construction Site 1",
+      "label": "Plastic Pipes 6m (1x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Gapa Organic Cabbage Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Sangdo Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Dasa Harbor",
+      "to": "Sanho Oil Refinery",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Gujwa Food Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Toy Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Gapa Starlight Hemp Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sinchang Pumpkin Farm",
+      "to": "Jeju Supermarket",
+      "label": "Pumpkin Pallet (1x)"
+    },
+    {
+      "from": "Yeongil Drilling Site",
+      "to": "Sanho Oil Refinery",
+      "label": "Crude Oil (2x)"
+    },
+    {
+      "from": "Gapa Golden Corn Farm",
+      "to": "Gapa Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Jeoji Plastic",
+      "to": "Seoguipo Construction Site 3",
+      "label": "Plastic Pipes 6m (1x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Gapa Organic Cabbage Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Ranch",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Overseas Imports Company",
+      "to": "Gujwa Food Factory",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Hanon Rice Farm",
+      "to": "Ara Supermarket",
+      "label": "Rice Pallet (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Jeju Bakery",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Gwangjin Construction Site",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Aewol Pumpkin Farm",
+      "to": "Seongsan Supermarket",
+      "label": "Pumpkin Pallet (1x)"
+    },
+    {
+      "from": "Gapa Bean Haven Farm",
+      "to": "Seongsan Supermarket",
+      "label": "Bean Pallet (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Hanon Rice Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Gapa Starlight Hemp Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Dasa Harbor",
+      "to": "Oji Gate Warehouse",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Namwon Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Jeoji Plastic",
+      "to": "Ara Construction Site 2",
+      "label": "Plastic Pipes 6m (1x)"
+    },
+    {
+      "from": "Sinchang Pumpkin Farm",
+      "to": "Seongsan Supermarket",
+      "label": "Pumpkin Pallet (1x)"
+    },
+    {
+      "from": "Gujwa Meat Factory",
+      "to": "Seongsan Supermarket",
+      "label": "Meat Box (1x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Namwon Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Jeju Harbor",
+      "to": "Jeoji Plastic",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Namwon Corn Farm",
+      "to": "Jeju Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Gapa Bean Haven Farm",
+      "to": "Ara Supermarket",
+      "label": "Bean Pallet (1x)"
+    },
+    {
+      "from": "Iseungag",
+      "to": "Oji Lumbermill",
+      "label": "Log 20ft (1x)"
+    },
+    {
+      "from": "Jeoji Plastic",
+      "to": "Nivart Furniture Factory",
+      "label": "Plastic (1x)"
+    },
+    {
+      "from": "Namwon Corn Farm",
+      "to": "Seongsan Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Jeju Bakery",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Aewol Pumpkin Farm",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Namwon Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Gapa Golden Corn Farm",
+      "to": "Ara Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Sangdo Lumbermill",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Ranch",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Daily Cheese Inc.",
+      "to": "Pizza Jeju",
+      "label": "Cheese Box (1x)"
+    },
+    {
+      "from": "Hanon Rice Farm",
+      "to": "Gangjung Supermarket",
+      "label": "Rice Pallet (1x)"
+    },
+    {
+      "from": "Concrete Factory",
+      "to": "Ara Construction Site 1",
+      "label": "Concrete (1x)"
+    },
+    {
+      "from": "Gapa Golden Corn Farm",
+      "to": "Gangjung Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Jeju Bakery",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Ara Construction Site 2",
+      "to": "Concrete Factory",
+      "label": "Sand (10x)"
+    },
+    {
+      "from": "Gwangjin Mines",
+      "to": "Steel Mill",
+      "label": "Coal (30x)"
+    },
+    {
+      "from": "Dasa Harbor",
+      "to": "Oedo Warehouse",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Sangdo Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Dasa Harbor",
+      "to": "Gujwa Food Factory",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Gujwa Food Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Gapa Starlight Hemp Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Toy Factory",
+      "to": "Seongsan Supermarket",
+      "label": "Pallet of Toys (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Three Water Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Gapa Organic Cabbage Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sangdo Corn Farm",
+      "to": "Jeju Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Sinchang Pumpkin Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Jeju Harbor",
+      "to": "Toy Factory",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Overseas Imports Company",
+      "to": "1100 Rest Area",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Overseas Imports Company",
+      "to": "Toy Factory",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Jeju Harbor",
+      "to": "Gujwa Meat Factory",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Jeju Bakery",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Concrete Factory",
+      "to": "Seoguipo Construction Site 3",
+      "label": "Concrete (1x)"
+    },
+    {
+      "from": "Gapa Bean Haven Farm",
+      "to": "Gangjung Supermarket",
+      "label": "Bean Pallet (1x)"
+    },
+    {
+      "from": "Sinchang Pumpkin Farm",
+      "to": "Hallim Supermarket",
+      "label": "Pumpkin Pallet (1x)"
+    },
+    {
+      "from": "Daily Cheese Inc.",
+      "to": "Pizza Seo-Gui-Po",
+      "label": "Cheese Box (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Concrete Factory",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Jeoji Plastic",
+      "label": "Oil (20x)"
+    },
+    {
+      "from": "Hachon Orange Farm",
+      "to": "Ara Supermarket",
+      "label": "Orange Pallet (1x)"
+    },
+    {
+      "from": "Dasa Harbor",
+      "to": "Sinchang Warehouse",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Jeju Bakery",
+      "to": "Jeju Supermarket",
+      "label": "Bread Pallet (1x)"
+    },
+    {
+      "from": "Daily Cheese Inc.",
+      "to": "Seongsan Supermarket",
+      "label": "Cheese Pallet (1x)"
+    },
+    {
+      "from": "Aewol Pumpkin Farm",
+      "to": "Hallim Supermarket",
+      "label": "Pumpkin Pallet (1x)"
+    },
+    {
+      "from": "Jeju Harbor",
+      "to": "Jeju Bakery",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Hachon Orange Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Namwon Corn Farm",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Gujwa Meat Factory",
+      "to": "Pizza Seo-Gui-Po",
+      "label": "Meat Box (1x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Aewol Pumpkin Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Daily Cheese Inc.",
+      "to": "BurgerJoint Seo-Gui-Po",
+      "label": "Cheese Box (1x)"
+    },
+    {
+      "from": "Gasi Ranch",
+      "to": "Daily Cheese Inc.",
+      "label": "Milk (1x)"
+    },
+    {
+      "from": "Gapa Organic Cabbage Farm",
+      "to": "Seongsan Supermarket",
+      "label": "Cabbage Pallet (1x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Gapa Golden Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Gujwa Meat Factory",
+      "to": "Hallim Supermarket",
+      "label": "Meat Box (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Gapa Organic Cabbage Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Toy Factory",
+      "to": "Hallim Supermarket",
+      "label": "Pallet of Toys (1x)"
+    },
+    {
+      "from": "Sangdo Corn Farm",
+      "to": "Hallim Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Namwon Corn Farm",
+      "to": "Hallim Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Ara Construction Site 2",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Namwon Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Dasa Harbor",
+      "to": "1100 Rest Area",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Toy Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Hachon Orange Farm",
+      "to": "Gangjung Supermarket",
+      "label": "Orange Pallet (1x)"
+    },
+    {
+      "from": "Concrete Factory",
+      "to": "Ara Construction Site 2",
+      "label": "Concrete (1x)"
+    },
+    {
+      "from": "Three Water Factory",
+      "to": "Ara Supermarket",
+      "label": "Water Bottle Pallet (1x)"
+    },
+    {
+      "from": "Overseas Imports Company",
+      "to": "Jeju Bakery",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Sinchang Pumpkin Farm",
+      "to": "Gapa Supermarket",
+      "label": "Pumpkin Pallet (1x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Aewol Pumpkin Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Gujwa Meat Factory",
+      "to": "Gapa Supermarket",
+      "label": "Meat Box (1x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Sinchang Pumpkin Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Sangdo Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Iseungag",
+      "to": "Sangdo Lumbermill",
+      "label": "Log 20ft (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Jeju Bakery",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Daily Cheese Inc.",
+      "to": "Hallim Supermarket",
+      "label": "Cheese Pallet (1x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Aewol Pumpkin Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Sinchang Pumpkin Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Namwon Corn Farm",
+      "to": "Gapa Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Jeju Harbor",
+      "to": "Kupa",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Jeoji Plastic",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Three Water Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Gapa Organic Cabbage Farm",
+      "to": "Hallim Supermarket",
+      "label": "Cabbage Pallet (1x)"
+    },
+    {
+      "from": "Aewol Pumpkin Farm",
+      "to": "Gapa Supermarket",
+      "label": "Pumpkin Pallet (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Sinchang Pumpkin Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Jeoji Plastic",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Gapa Starlight Hemp Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Overseas Imports Company",
+      "to": "Sinchang Warehouse",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Jeju Harbor",
+      "to": "Gangjung Warehouse",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Gapa Organic Cabbage Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Hanon Rice Farm",
+      "to": "Jeju Supermarket",
+      "label": "Rice Pallet (1x)"
+    },
+    {
+      "from": "Gapa Golden Corn Farm",
+      "to": "Jeju Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Jeoji Plastic",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Jeju Bakery",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Nobong Cement Factory",
+      "to": "Concrete Factory",
+      "label": "Cement (10x)"
+    },
+    {
+      "from": "Jeju Harbor",
+      "to": "Three Water Factory",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Seoguipo Construction Site 1",
+      "to": "Concrete Factory",
+      "label": "Sand (10x)"
+    },
+    {
+      "from": "Sinchang Pumpkin Farm",
+      "to": "Ara Supermarket",
+      "label": "Pumpkin Pallet (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Gapa Golden Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Toy Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Jeoji Plastic",
+      "to": "Toy Factory",
+      "label": "Plastic (10x)"
+    },
+    {
+      "from": "Gujwa Meat Factory",
+      "to": "Ara Supermarket",
+      "label": "Meat Box (1x)"
+    },
+    {
+      "from": "Dasa Harbor",
+      "to": "Toy Factory",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Hanon Rice Farm",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Aewol Pumpkin Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Ara Construction Site 1",
+      "to": "Concrete Factory",
+      "label": "Sand (10x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Toy Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Jeoji Plastic",
+      "to": "Toy Factory",
+      "label": "Plastic (3x)"
+    },
+    {
+      "from": "Toy Factory",
+      "to": "Gapa Supermarket",
+      "label": "Pallet of Toys (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Ara Construction Site 1",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Gapa Organic Cabbage Farm",
+      "to": "Gapa Supermarket",
+      "label": "Cabbage Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Sinchang Pumpkin Farm",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Dasa Harbor",
+      "to": "Jeju Bakery",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Gapa Bean Haven Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Hanon Rice Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Aewol Pumpkin Farm",
+      "to": "Gangjung Supermarket",
+      "label": "Pumpkin Pallet (1x)"
+    },
+    {
+      "from": "Concrete Factory",
+      "to": "Seoguipo Construction Site 1",
+      "label": "Concrete (1x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Toy Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Jeoji Plastic",
+      "to": "Ara Construction Site 3",
+      "label": "Plastic Pipes 6m (1x)"
+    },
+    {
+      "from": "Daily Cheese Inc.",
+      "to": "BurgerJoint Jeju",
+      "label": "Cheese Box (1x)"
+    },
+    {
+      "from": "Namwon Corn Farm",
+      "to": "Ara Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Hanon Rice Farm",
+      "to": "Hallim Supermarket",
+      "label": "Rice Pallet (1x)"
+    },
+    {
+      "from": "Ara Construction Site 3",
+      "to": "Concrete Factory",
+      "label": "Sand (10x)"
+    },
+    {
+      "from": "Sinchang Pumpkin Farm",
+      "to": "Gangjung Supermarket",
+      "label": "Pumpkin Pallet (1x)"
+    },
+    {
+      "from": "Gujwa Meat Factory",
+      "to": "Gangjung Supermarket",
+      "label": "Meat Box (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Hachon Orange Farm",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Sinchang Pumpkin Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Yeongil Drilling Site",
+      "to": "Sanho Oil Refinery",
+      "label": "Crude Oil (10x)"
+    },
+    {
+      "from": "Daily Cheese Inc.",
+      "to": "Gapa Supermarket",
+      "label": "Cheese Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Seoguipo Construction Site 1",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Aewol Pumpkin Farm",
+      "to": "Ara Supermarket",
+      "label": "Pumpkin Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Three Water Factory",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Ranch",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Namwon Corn Farm",
+      "to": "Gangjung Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Sangdo Corn Farm",
+      "to": "Seongsan Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Gujwa Meat Factory",
+      "to": "BurgerJoint Jeju",
+      "label": "Meat Box (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Jeoji Plastic",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Steel Mill",
+      "to": "Ansan Racecar Factory",
+      "label": "Steel Coil (1x)"
+    },
+    {
+      "from": "Overseas Imports Company",
+      "to": "Gangjung Warehouse",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Toy Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Steel Mill",
+      "to": "Terra Factory",
+      "label": "Steel Coil (3x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Gasi Ranch",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Jeoji Plastic",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Gapa Starlight Hemp Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Jeju Harbor",
+      "to": "Seongsan Warehouse",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Hachon Orange Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Toy Factory",
+      "to": "Ara Supermarket",
+      "label": "Pallet of Toys (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Sangdo Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Three Water Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Seoguipo Construction Site 3",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Gapa Organic Cabbage Farm",
+      "to": "Ara Supermarket",
+      "label": "Cabbage Pallet (1x)"
+    },
+    {
+      "from": "Toy Factory",
+      "to": "Gangjung Supermarket",
+      "label": "Pallet of Toys (1x)"
+    },
+    {
+      "from": "Jeju Bakery",
+      "to": "Seongsan Supermarket",
+      "label": "Bread Pallet (1x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Hanon Rice Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Overseas Imports Company",
+      "to": "Jeoji Plastic",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Sinchang Pumpkin Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Gujwa Food Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Aewol Pumpkin Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Gapa Bean Haven Farm",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Overseas Imports Company",
+      "to": "Gujwa Meat Factory",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Terra Factory",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Hachon Orange Farm",
+      "to": "Jeju Supermarket",
+      "label": "Orange Pallet (1x)"
+    },
+    {
+      "from": "Jeoji Plastic",
+      "to": "Gwangjin Construction Site",
+      "label": "Plastic Pipes 6m (1x)"
+    },
+    {
+      "from": "Daily Cheese Inc.",
+      "to": "Ara Supermarket",
+      "label": "Cheese Pallet (1x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Hanon Rice Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Hachon Orange Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Daily Cheese Inc.",
+      "to": "Gangjung Supermarket",
+      "label": "Cheese Pallet (1x)"
+    },
+    {
+      "from": "Three Water Factory",
+      "to": "Jeju Supermarket",
+      "label": "Water Bottle Pallet (1x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Gapa Bean Haven Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Dasa Harbor",
+      "to": "Gangjung Warehouse",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Concrete Factory",
+      "to": "Ara Construction Site 3",
+      "label": "Concrete (1x)"
+    },
+    {
+      "from": "Three Water Factory",
+      "to": "Seongsan Supermarket",
+      "label": "Water Bottle Pallet (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Gapa Organic Cabbage Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Jeju Harbor",
+      "to": "Oji Gate Warehouse",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Gapa Bean Haven Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Gapa Organic Cabbage Farm",
+      "to": "Gangjung Supermarket",
+      "label": "Cabbage Pallet (1x)"
+    },
+    {
+      "from": "Jeju Construction Site",
+      "to": "Concrete Factory",
+      "label": "Sand (10x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Three Water Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Hanon Rice Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Gwangjin Construction Site",
+      "to": "Concrete Factory",
+      "label": "Sand (10x)"
+    },
+    {
+      "from": "Dasa Harbor",
+      "to": "Jeoji Plastic",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Ranch",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Hachon Orange Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Ranch",
+      "to": "Daily Cheese Inc.",
+      "label": "Milk (1x)"
+    },
+    {
+      "from": "Hachon Orange Farm",
+      "to": "Hallim Supermarket",
+      "label": "Orange Pallet (1x)"
+    },
+    {
+      "from": "Dongsan Quarry",
+      "to": "Steel Mill",
+      "label": "Limestone (5x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Three Water Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Hachon Orange Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Oji Lumbermill",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Aewol Pumpkin Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Gasi Ranch",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Jeju Bakery",
+      "to": "Hallim Supermarket",
+      "label": "Bread Pallet (1x)"
+    },
+    {
+      "from": "Yeongil Drilling Site",
+      "to": "Sanho Oil Refinery",
+      "label": "Crude Oil (5x)"
+    },
+    {
+      "from": "Hanon Rice Farm",
+      "to": "Seongsan Supermarket",
+      "label": "Rice Pallet (1x)"
+    },
+    {
+      "from": "Sangdo Corn Farm",
+      "to": "Gapa Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Terra Factory",
+      "label": "Oil (2x)"
+    },
+    {
+      "from": "Overseas Imports Company",
+      "to": "Three Water Factory",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Hachon Orange Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Overseas Imports Company",
+      "to": "Kupa",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Hanon Rice Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Dasa Harbor",
+      "to": "Gujwa Meat Factory",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Three Water Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Jeoji Plastic",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Gasi Ranch",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Gapa Golden Corn Farm",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Gwangjin Mines",
+      "label": "Fuel (3x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Yeongil Drilling Site",
+      "label": "Fuel (5x)"
+    },
+    {
+      "from": "Seongsan Warehouse",
+      "to": "Gapa Bean Haven Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Aewol Pumpkin Farm",
+      "to": "Jeju Supermarket",
+      "label": "Pumpkin Pallet (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Gasi Ranch",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Gapa Bean Haven Farm",
+      "to": "Jeju Supermarket",
+      "label": "Bean Pallet (1x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Gapa Bean Haven Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Three Water Factory",
+      "to": "Hallim Supermarket",
+      "label": "Water Bottle Pallet (1x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Gapa Golden Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Gapa Golden Corn Farm",
+      "to": "Seongsan Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "Gujwa Meat Factory",
+      "to": "Jeju Supermarket",
+      "label": "Meat Box (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Gapa Golden Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Concrete Factory",
+      "to": "Gwangjin Construction Site",
+      "label": "Concrete (1x)"
+    },
+    {
+      "from": "Toy Factory",
+      "to": "Jeju Supermarket",
+      "label": "Pallet of Toys (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Gujwa Food Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Seoguipo Construction Site 3",
+      "to": "Concrete Factory",
+      "label": "Sand (10x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Nivart Furniture Factory",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Gangjung Warehouse",
+      "to": "Gapa Bean Haven Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Namwon Corn Farm",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Sangdo Corn Farm",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Hachon Orange Farm",
+      "to": "Gapa Supermarket",
+      "label": "Orange Pallet (1x)"
+    },
+    {
+      "from": "Sangdo Corn Farm",
+      "to": "Ara Supermarket",
+      "label": "Corn Pallet (1x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Toy Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Oji Gate Warehouse",
+      "to": "Three Water Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Jeju Harbor",
+      "to": "1100 Rest Area",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Jeoji Plastic",
+      "to": "Jeju Construction Site",
+      "label": "Plastic Pipes 6m (1x)"
+    },
+    {
+      "from": "Jeju Bakery",
+      "to": "Gapa Supermarket",
+      "label": "Bread Pallet (1x)"
+    },
+    {
+      "from": "Jeju Harbor",
+      "to": "Sanho Oil Refinery",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Oedo Warehouse",
+      "to": "Gasi Ranch",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Ranch",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Sinchang Warehouse",
+      "to": "Gujwa Food Factory",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "1100 Rest Area",
+      "to": "Jeju Bakery",
+      "label": "Pallet (1x)"
+    },
+    {
+      "from": "Sanho Oil Refinery",
+      "to": "Gapa Starlight Hemp Farm",
+      "label": "Fuel (1x)"
+    },
+    {
+      "from": "Dasa Harbor",
+      "to": "Three Water Factory",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Gujwa Meat Factory",
+      "to": "Pizza Jeju",
+      "label": "Meat Box (1x)"
+    },
+    {
+      "from": "Dasa Harbor",
+      "to": "Kupa",
+      "label": "Container (1x)"
+    },
+    {
+      "from": "Kupa",
+      "to": "Aewol Pumpkin Farm",
+      "label": "Pallet (1x)"
+    }
+  ]
+}

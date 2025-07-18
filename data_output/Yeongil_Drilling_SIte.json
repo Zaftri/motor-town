@@ -1,0 +1,40 @@
+{
+  "Name": "Yeongil Drilling Site",
+  "Type": "Site",
+  "Location": "Oji Island",
+  "Production Tables": [
+    {
+      "Input": [],
+      "Input Capacity": "300",
+      "Output": {
+        "name": "Crude Oil",
+        "amount": 1
+      },
+      "Process Time": "02:00",
+      "Output Capacity": "",
+      "raw_input_string": "",
+      "raw_output_string": "1x Crude Oil"
+    },
+    {
+      "Input": [
+        {
+          "name": "Fuel",
+          "amount": 5
+        },
+        {
+          "name": "Wood Plank 14ft 5t",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "300",
+      "Output": {
+        "name": "Crude Oil",
+        "amount": 20
+      },
+      "Process Time": "00:30",
+      "Output Capacity": "",
+      "raw_input_string": "5x Fuel 1x Wood Plank 14ft 5t",
+      "raw_output_string": "20x Crude Oil"
+    }
+  ]
+}

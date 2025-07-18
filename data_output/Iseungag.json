@@ -1,0 +1,36 @@
+{
+  "Name": "Iseungag",
+  "Type": "Site",
+  "Location": "Jeju Island",
+  "Production Tables": [
+    {
+      "Input": [],
+      "Input Capacity": "20",
+      "Output": {
+        "name": "Log 20ft",
+        "amount": 1
+      },
+      "Process Time": "05:00",
+      "Output Capacity": "",
+      "raw_input_string": "",
+      "raw_output_string": "1x Log 20ft"
+    },
+    {
+      "Input": [
+        {
+          "name": "Fuel",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "20",
+      "Output": {
+        "name": "Log 20ft",
+        "amount": 1
+      },
+      "Process Time": "05:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Fuel",
+      "raw_output_string": "1x Log 20ft"
+    }
+  ]
+}

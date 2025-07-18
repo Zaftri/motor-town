@@ -1,0 +1,59 @@
+{
+  "Name": "Hanon Rice Farm",
+  "Type": "",
+  "Location": "Gangjung,Jeju Island",
+  "Production Tables": [
+    {
+      "Input": [],
+      "Input Capacity": "10",
+      "Output": {
+        "name": "Rice Pallet",
+        "amount": 1
+      },
+      "Process Time": "05:00",
+      "Output Capacity": "",
+      "raw_input_string": "",
+      "raw_output_string": "1x Rice Pallet"
+    },
+    {
+      "Input": [],
+      "Input Capacity": "3",
+      "Output": {
+        "name": "Rice",
+        "amount": 1
+      },
+      "Process Time": "00:30",
+      "Output Capacity": "",
+      "raw_input_string": "",
+      "raw_output_string": "1x Rice"
+    },
+    {
+      "Input": [
+        {
+          "name": "Fuel",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "",
+      "Output": {},
+      "Process Time": "10:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Fuel",
+      "raw_output_string": "+100% Production Speed"
+    },
+    {
+      "Input": [
+        {
+          "name": "Pallet",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "",
+      "Output": {},
+      "Process Time": "10:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Pallet",
+      "raw_output_string": "+100% Production Speed"
+    }
+  ]
+}

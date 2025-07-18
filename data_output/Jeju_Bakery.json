@@ -1,0 +1,75 @@
+{
+  "Name": "Jeju Bakery",
+  "Type": "",
+  "Location": "N/A",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Container",
+          "amount": 1
+        }
+      ],
+      "Output": {
+        "name": "Bread Pallet",
+        "amount": 4
+      },
+      "Input Capacity": "",
+      "Output Capacity": "50",
+      "Process Time": "Every 1:00",
+      "raw_input_string": "1x Container",
+      "raw_output_string": "4x Bread Pallet"
+    },
+    {
+      "Input": [
+        {
+          "name": "Container",
+          "amount": 1
+        }
+      ],
+      "Output": {
+        "name": "Bread Box",
+        "amount": 20
+      },
+      "Input Capacity": "",
+      "Output Capacity": "100",
+      "Process Time": "Every 1:00",
+      "raw_input_string": "1x Container",
+      "raw_output_string": "20x Bread Box"
+    },
+    {
+      "Input": [
+        {
+          "name": "Pallet",
+          "amount": 1
+        }
+      ],
+      "Output": {
+        "name": "Bread Pallet",
+        "amount": 1
+      },
+      "Input Capacity": "",
+      "Output Capacity": "50",
+      "Process Time": "Every 0:10",
+      "raw_input_string": "1x Pallet",
+      "raw_output_string": "1x Bread Pallet"
+    },
+    {
+      "Input": [
+        {
+          "name": "Pallet",
+          "amount": 1
+        }
+      ],
+      "Output": {
+        "name": "Bread Box",
+        "amount": 4
+      },
+      "Input Capacity": "",
+      "Output Capacity": "100",
+      "Process Time": "Every 0:10",
+      "raw_input_string": "1x Pallet",
+      "raw_output_string": "4x Bread Box"
+    }
+  ]
+}

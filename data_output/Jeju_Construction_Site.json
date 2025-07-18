@@ -1,0 +1,106 @@
+{
+  "Name": "Jeju Construction Site",
+  "Type": "Site",
+  "Location": "Oji Island",
+  "Production Tables": [
+    {
+      "Input": [],
+      "Input Capacity": "100",
+      "Output": {
+        "name": "Sand",
+        "amount": 1
+      },
+      "Process Time": "02:00",
+      "Output Capacity": "",
+      "raw_input_string": "",
+      "raw_output_string": "1x Sand"
+    },
+    {
+      "Input": [
+        {
+          "name": "Concrete",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "100",
+      "Output": {
+        "name": "Fine Sand",
+        "amount": 1
+      },
+      "Process Time": "00:05",
+      "Output Capacity": "",
+      "raw_input_string": "1x Concrete",
+      "raw_output_string": "1x Fine Sand"
+    },
+    {
+      "Input": [
+        {
+          "name": "Concrete",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "",
+      "Output": {},
+      "Process Time": "06:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Concrete",
+      "raw_output_string": "Production Speed +3%"
+    },
+    {
+      "Input": [
+        {
+          "name": "WoodPlank 14ft",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "",
+      "Output": {},
+      "Process Time": "15:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x WoodPlank 14ft",
+      "raw_output_string": "Production Speed +3%"
+    },
+    {
+      "Input": [
+        {
+          "name": "Fuel",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "",
+      "Output": {},
+      "Process Time": "06:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Fuel",
+      "raw_output_string": "Production Speed +3%"
+    },
+    {
+      "Input": [
+        {
+          "name": "Plastic Pipes 6m",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "",
+      "Output": {},
+      "Process Time": "10:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Plastic Pipes 6m",
+      "raw_output_string": "Production Speed +3%"
+    },
+    {
+      "Input": [
+        {
+          "name": "H-Beam 6m",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "",
+      "Output": {},
+      "Process Time": "10:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x H-Beam 6m",
+      "raw_output_string": "Production Speed +3%"
+    }
+  ]
+}

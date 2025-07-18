@@ -1,0 +1,21 @@
+{
+  "Name": "Seongsan Sashimi",
+  "Type": "",
+  "Location": "Seongsan,Jeju Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Live Fish",
+          "amount": 2
+        }
+      ],
+      "Input Capacity": "",
+      "Output": {},
+      "Process Time": "",
+      "Output Capacity": "",
+      "raw_input_string": "2x Live Fish",
+      "raw_output_string": ""
+    }
+  ]
+}

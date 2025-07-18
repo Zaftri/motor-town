@@ -1,0 +1,59 @@
+{
+  "Name": "Jeoji Plastic",
+  "Type": "",
+  "Location": "WesternJeju Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Oil",
+          "amount": 20
+        }
+      ],
+      "Input Capacity": "200",
+      "Output": {
+        "name": "Plastic",
+        "amount": 20
+      },
+      "Process Time": "03:00",
+      "Output Capacity": "",
+      "raw_input_string": "20x Oil",
+      "raw_output_string": "20x Plastic"
+    },
+    {
+      "Input": [
+        {
+          "name": "Oil",
+          "amount": 20
+        },
+        {
+          "name": "Container",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "200",
+      "Output": {
+        "name": "Plastic Pipes 6m",
+        "amount": 20
+      },
+      "Process Time": "03:00",
+      "Output Capacity": "",
+      "raw_input_string": "20x Oil 1x Container",
+      "raw_output_string": "20x Plastic Pipes 6m"
+    },
+    {
+      "Input": [
+        {
+          "name": "Pallet",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "",
+      "Output": {},
+      "Process Time": "10:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Pallet",
+      "raw_output_string": "+50% Production Speed"
+    }
+  ]
+}

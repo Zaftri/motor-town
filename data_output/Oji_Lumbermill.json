@@ -1,0 +1,55 @@
+{
+  "Name": "Oji Lumbermill",
+  "Type": "",
+  "Location": "Oji Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Log 20ft",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "100",
+      "Output": {
+        "name": "Wood Plank 14ft",
+        "amount": 4
+      },
+      "Process Time": "01:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Log 20ft",
+      "raw_output_string": "4x Wood Plank 14ft"
+    },
+    {
+      "Input": [
+        {
+          "name": "Oak Log 12ft",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "100",
+      "Output": {
+        "name": "Wood Plank 14ft",
+        "amount": 2
+      },
+      "Process Time": "01:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Oak Log 12ft",
+      "raw_output_string": "2x Wood Plank 14ft"
+    },
+    {
+      "Input": [
+        {
+          "name": "Fuel",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "",
+      "Output": {},
+      "Process Time": "10:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Fuel",
+      "raw_output_string": "+100% production speed"
+    }
+  ]
+}

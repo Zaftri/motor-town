@@ -1,0 +1,49 @@
+{
+  "Name": "Toy Factory",
+  "Type": "",
+  "Location": "Gujwa,Jeju Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Plastic",
+          "amount": 10
+        },
+        {
+          "name": "Container",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "100",
+      "Output": {
+        "name": "Pallet of Toys",
+        "amount": 20
+      },
+      "Process Time": "01:00",
+      "Output Capacity": "",
+      "raw_input_string": "10x Plastic 1x Container",
+      "raw_output_string": "20x Pallet of Toys"
+    },
+    {
+      "Input": [
+        {
+          "name": "Plastic",
+          "amount": 3
+        },
+        {
+          "name": "Pallet",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "100",
+      "Output": {
+        "name": "Pallet of Toys",
+        "amount": 6
+      },
+      "Process Time": "00:10",
+      "Output Capacity": "",
+      "raw_input_string": "3x Plastic 1x Pallet",
+      "raw_output_string": "6x Pallet of Toys"
+    }
+  ]
+}

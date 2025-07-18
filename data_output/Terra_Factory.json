@@ -1,0 +1,44 @@
+{
+  "Name": "Terra Factory",
+  "Type": "",
+  "Location": "South-central coast ofOji Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Steel Coil",
+          "amount": 3
+        },
+        {
+          "name": "H-Beam 6m",
+          "amount": 2
+        },
+        {
+          "name": "Container, 20ft",
+          "amount": 2
+        },
+        {
+          "name": "Fuel",
+          "amount": 1
+        },
+        {
+          "name": "Oil",
+          "amount": 2
+        },
+        {
+          "name": "Plastic Pallet",
+          "amount": 2
+        }
+      ],
+      "Input Capacity": "5",
+      "Output": {
+        "name": "Terra",
+        "amount": 1
+      },
+      "Process Time": "10:00",
+      "Output Capacity": "",
+      "raw_input_string": "3x Steel Coil 2x H-Beam 6M 2x Container 20ft 1x Fuel 2x Oil 2x Plastic Pallet",
+      "raw_output_string": "1x Terra"
+    }
+  ]
+}

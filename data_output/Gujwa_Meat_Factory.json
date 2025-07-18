@@ -1,0 +1,24 @@
+{
+  "Name": "Gujwa Meat Factory",
+  "Type": "",
+  "Location": "Gujwa,Jeju Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Container",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "100",
+      "Output": {
+        "name": "Meat Box",
+        "amount": 20
+      },
+      "Process Time": "00:10",
+      "Output Capacity": "",
+      "raw_input_string": "1x Container",
+      "raw_output_string": "20x Meat Box"
+    }
+  ]
+}

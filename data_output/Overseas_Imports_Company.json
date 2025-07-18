@@ -1,0 +1,19 @@
+{
+  "Name": "Overseas Imports Company",
+  "Type": "Storage,Warehouse",
+  "Location": "Jeju Island",
+  "Production Tables": [
+    {
+      "Input": [],
+      "Input Capacity": "30",
+      "Output": {
+        "name": "Container",
+        "amount": 1
+      },
+      "Output Capacity": "",
+      "Process Time": "",
+      "raw_input_string": "",
+      "raw_output_string": "1x Container"
+    }
+  ]
+}

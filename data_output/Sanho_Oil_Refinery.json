@@ -1,0 +1,83 @@
+{
+  "Name": "Sanho Oil Refinery",
+  "Type": "",
+  "Location": "South-west coast ofOji Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Crude Oil",
+          "amount": 5
+        }
+      ],
+      "Output": {
+        "name": "Fuel",
+        "amount": 10
+      },
+      "Output Capacity": "500 units",
+      "Input Capacity": [],
+      "Process Time": "",
+      "raw_input_string": "5x Crude Oil",
+      "raw_output_string": "10x Fuel"
+    },
+    {
+      "Input": [
+        {
+          "name": "Crude Oil",
+          "amount": 10
+        },
+        {
+          "name": "Container",
+          "amount": 1
+        }
+      ],
+      "Output": {
+        "name": "Fuel",
+        "amount": 30
+      },
+      "Output Capacity": "500 units",
+      "Input Capacity": [],
+      "Process Time": "",
+      "raw_input_string": "10x Crude Oil 1x Container",
+      "raw_output_string": "30x Fuel"
+    },
+    {
+      "Input": [
+        {
+          "name": "Crude Oil",
+          "amount": 2
+        }
+      ],
+      "Output": {
+        "name": "Oil",
+        "amount": 4
+      },
+      "Output Capacity": "500 units",
+      "Input Capacity": [],
+      "Process Time": "",
+      "raw_input_string": "2x Crude Oil",
+      "raw_output_string": "4x Oil"
+    },
+    {
+      "Input": [
+        {
+          "name": "Crude Oil",
+          "amount": 10
+        },
+        {
+          "name": "Container",
+          "amount": 1
+        }
+      ],
+      "Output": {
+        "name": "Oil",
+        "amount": 30
+      },
+      "Output Capacity": "500 units",
+      "Input Capacity": [],
+      "Process Time": "",
+      "raw_input_string": "10x Crude Oil 1x Container",
+      "raw_output_string": "30x Oil"
+    }
+  ]
+}

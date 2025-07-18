@@ -1,0 +1,58 @@
+{
+  "Name": "Concrete Factory",
+  "Type": "",
+  "Location": "Jeju Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Cement",
+          "amount": 10
+        }
+      ],
+      "Input Capacity": "300",
+      "Output": {
+        "name": "Concrete",
+        "amount": 10
+      },
+      "Process Time": "01:00",
+      "Output Capacity": "",
+      "raw_input_string": "10x Cement",
+      "raw_output_string": "10x Concrete"
+    },
+    {
+      "Input": [
+        {
+          "name": "Fuel",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "300",
+      "Output": {
+        "name": "Concrete",
+        "amount": 10
+      },
+      "Process Time": "01:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Fuel",
+      "raw_output_string": "10x Concrete"
+    },
+    {
+      "Input": [
+        {
+          "name": "Sand",
+          "amount": 10
+        }
+      ],
+      "Input Capacity": "300",
+      "Output": {
+        "name": "Concrete",
+        "amount": 10
+      },
+      "Process Time": "01:00",
+      "Output Capacity": "",
+      "raw_input_string": "10x Sand",
+      "raw_output_string": "10x Concrete"
+    }
+  ]
+}

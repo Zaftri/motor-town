@@ -1,0 +1,24 @@
+{
+  "Name": "Nobong Cement Factory",
+  "Type": "",
+  "Location": "NorthernOji Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Limestone",
+          "amount": 10
+        }
+      ],
+      "Input Capacity": "300",
+      "Output": {
+        "name": "Cement",
+        "amount": 10
+      },
+      "Process Time": "01:00",
+      "Output Capacity": "",
+      "raw_input_string": "10x Limestone",
+      "raw_output_string": "10x Cement"
+    }
+  ]
+}

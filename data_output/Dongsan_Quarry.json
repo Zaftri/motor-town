@@ -1,0 +1,24 @@
+{
+  "Name": "Dongsan Quarry",
+  "Type": "",
+  "Location": "Oji Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Limestone Rock",
+          "amount": 10
+        }
+      ],
+      "Input Capacity": "300",
+      "Output": {
+        "name": "Limestone",
+        "amount": 5
+      },
+      "Process Time": "01:00",
+      "Output Capacity": "",
+      "raw_input_string": "10x Limestone Rock",
+      "raw_output_string": "5x Limestone"
+    }
+  ]
+}

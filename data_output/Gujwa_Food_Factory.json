@@ -1,0 +1,41 @@
+{
+  "Name": "Gujwa Food Factory",
+  "Type": "",
+  "Location": "Gujwa,Jeju Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Container",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "100",
+      "Output": {
+        "name": "Airline Meal Pallet",
+        "amount": 5
+      },
+      "Process Time": "00:30",
+      "Output Capacity": "",
+      "raw_input_string": "1x Container",
+      "raw_output_string": "5x Airline Meal Pallet"
+    },
+    {
+      "Input": [
+        {
+          "name": "Pallet",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "100",
+      "Output": {
+        "name": "Airline Meal Pallet",
+        "amount": 1
+      },
+      "Process Time": "00:10",
+      "Output Capacity": "",
+      "raw_input_string": "1x Pallet",
+      "raw_output_string": "1x Airline Meal Pallet"
+    }
+  ]
+}

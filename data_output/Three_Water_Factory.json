@@ -1,0 +1,55 @@
+{
+  "Name": "Three Water Factory",
+  "Type": "",
+  "Location": "WesternJeju Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Container",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "50",
+      "Output": {
+        "name": "Water Bottle Pallet",
+        "amount": 8
+      },
+      "Process Time": "01:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Container",
+      "raw_output_string": "8x Water Bottle Pallet"
+    },
+    {
+      "Input": [
+        {
+          "name": "Pallet",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "50",
+      "Output": {
+        "name": "Water Bottle Pallet",
+        "amount": 2
+      },
+      "Process Time": "00:30",
+      "Output Capacity": "",
+      "raw_input_string": "1x Pallet",
+      "raw_output_string": "2x Water Bottle Pallet"
+    },
+    {
+      "Input": [
+        {
+          "name": "Fuel",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "",
+      "Output": {},
+      "Process Time": "05:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Fuel",
+      "raw_output_string": ""
+    }
+  ]
+}

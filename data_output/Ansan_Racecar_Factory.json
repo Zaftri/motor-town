@@ -1,0 +1,32 @@
+{
+  "Name": "Ansan Racecar Factory",
+  "Type": "",
+  "Location": "CentralAnsan Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Steel Coil",
+          "amount": 1
+        },
+        {
+          "name": "Box Pallet A",
+          "amount": 6
+        },
+        {
+          "name": "Container, 20ft",
+          "amount": 2
+        }
+      ],
+      "Input Capacity": "2",
+      "Output": {
+        "name": "Formula SCM",
+        "amount": 1
+      },
+      "Process Time": "10:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Steel Coil 6x Box Pallet A 2x Container 20ft",
+      "raw_output_string": "1x Formula SCM"
+    }
+  ]
+}

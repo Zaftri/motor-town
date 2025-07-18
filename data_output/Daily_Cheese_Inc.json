@@ -1,0 +1,41 @@
+{
+  "Name": "Daily Cheese Inc.",
+  "Type": "",
+  "Location": "Jeju Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Milk",
+          "amount": 1
+        }
+      ],
+      "Output": {
+        "name": "Cheese Pallet",
+        "amount": 1
+      },
+      "Output Capacity": "100",
+      "Process Time": "00:10",
+      "Input Capacity": [],
+      "raw_input_string": "1x Milk",
+      "raw_output_string": "1x Cheese Pallet"
+    },
+    {
+      "Input": [
+        {
+          "name": "Milk",
+          "amount": 1
+        }
+      ],
+      "Output": {
+        "name": "Cheese Box",
+        "amount": 5
+      },
+      "Output Capacity": "100",
+      "Process Time": "00:10",
+      "Input Capacity": [],
+      "raw_input_string": "1x Milk",
+      "raw_output_string": "5x Cheese Box"
+    }
+  ]
+}

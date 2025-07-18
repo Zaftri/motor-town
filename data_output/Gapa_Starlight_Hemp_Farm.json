@@ -1,0 +1,47 @@
+{
+  "Name": "Gapa Starlight Hemp Farm",
+  "Type": "",
+  "Location": "Gapa,Oji Island",
+  "Production Tables": [
+    {
+      "Input": [],
+      "Input Capacity": "10",
+      "Output": {
+        "name": "Hemp Pallet",
+        "amount": 1
+      },
+      "Process Time": "05:00",
+      "Output Capacity": "",
+      "raw_input_string": "",
+      "raw_output_string": "1x Hemp Pallet"
+    },
+    {
+      "Input": [
+        {
+          "name": "Fuel",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "",
+      "Output": {},
+      "Process Time": "10:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Fuel",
+      "raw_output_string": "+100% Production Speed"
+    },
+    {
+      "Input": [
+        {
+          "name": "Pallet",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "",
+      "Output": {},
+      "Process Time": "10:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Pallet",
+      "raw_output_string": "+100% Production Speed"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "Name": "Steel Mill",
+  "Type": "",
+  "Location": "Oji Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Coal",
+          "amount": 30
+        },
+        {
+          "name": "Iron Ore",
+          "amount": 20
+        },
+        {
+          "name": "Limestone",
+          "amount": 5
+        }
+      ],
+      "Input Capacity": "30",
+      "Output": {
+        "name": "Steel Coil",
+        "amount": 1
+      },
+      "Process Time": "02:00",
+      "Output Capacity": "",
+      "raw_input_string": "30x Coal 20x Iron Ore 5x Limestone",
+      "raw_output_string": "1x Steel Coil"
+    }
+  ]
+}

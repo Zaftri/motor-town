@@ -1,0 +1,19 @@
+{
+  "Name": "Jeju Harbor",
+  "Type": "Storage",
+  "Location": "Jeju Island",
+  "Production Tables": [
+    {
+      "Input": [],
+      "Input Capacity": "80",
+      "Output": {
+        "name": "Container",
+        "amount": 1
+      },
+      "Output Capacity": "",
+      "Process Time": "",
+      "raw_input_string": "",
+      "raw_output_string": "1x Container"
+    }
+  ]
+}

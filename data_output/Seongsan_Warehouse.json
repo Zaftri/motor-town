@@ -1,0 +1,41 @@
+{
+  "Name": "Seongsan Warehouse",
+  "Type": "",
+  "Location": "Seongsan,Jeju Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Container",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "\u221e",
+      "Output": {
+        "name": "Pallet",
+        "amount": 4
+      },
+      "Process Time": "01:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Container",
+      "raw_output_string": "4x Pallet"
+    },
+    {
+      "Input": [
+        {
+          "name": "Empty Supply Box",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "50",
+      "Output": {
+        "name": "Supply Box",
+        "amount": 1
+      },
+      "Process Time": "00:10",
+      "Output Capacity": "",
+      "raw_input_string": "1x Empty Supply Box",
+      "raw_output_string": "1x Supply Box"
+    }
+  ]
+}

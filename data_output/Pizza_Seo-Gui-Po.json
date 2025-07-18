@@ -1,0 +1,41 @@
+{
+  "Name": "Pizza Seo-Gui-Po",
+  "Type": "",
+  "Location": "Seoguipo,Jeju Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Meat Box",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "30",
+      "Output": {
+        "name": "Premium Pizza Box",
+        "amount": 20
+      },
+      "Process Time": "01:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Meat Box",
+      "raw_output_string": "20x Premium Pizza Box"
+    },
+    {
+      "Input": [
+        {
+          "name": "Cheese Box",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "30",
+      "Output": {
+        "name": "Premium Pizza Box",
+        "amount": 20
+      },
+      "Process Time": "01:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Cheese Box",
+      "raw_output_string": "20x Premium Pizza Box"
+    }
+  ]
+}

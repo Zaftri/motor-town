@@ -1,0 +1,41 @@
+{
+  "Name": "BurgerJoint Jeju",
+  "Type": "",
+  "Location": "Jeju City,Jeju Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Meat Box",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "30",
+      "Output": {
+        "name": "Signature Burger",
+        "amount": 10
+      },
+      "Process Time": "01:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Meat Box",
+      "raw_output_string": "10x Signature Burger"
+    },
+    {
+      "Input": [
+        {
+          "name": "Cheese Box",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "30",
+      "Output": {
+        "name": "Signature Burger",
+        "amount": 10
+      },
+      "Process Time": "01:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Cheese Box",
+      "raw_output_string": "10x Signature Burger"
+    }
+  ]
+}

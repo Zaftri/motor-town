@@ -1,0 +1,47 @@
+{
+  "Name": "Ranch",
+  "Type": "",
+  "Location": "WesternJeju Island",
+  "Production Tables": [
+    {
+      "Input": [],
+      "Input Capacity": "200",
+      "Output": {
+        "name": "Milk",
+        "amount": 1
+      },
+      "Process Time": "02:00",
+      "Output Capacity": "",
+      "raw_input_string": "",
+      "raw_output_string": "1x Milk"
+    },
+    {
+      "Input": [
+        {
+          "name": "Fuel",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "",
+      "Output": {},
+      "Process Time": "10:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Fuel",
+      "raw_output_string": "+100% Production Speed"
+    },
+    {
+      "Input": [
+        {
+          "name": "Pallet",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "",
+      "Output": {},
+      "Process Time": "10:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Pallet",
+      "raw_output_string": "+100% Production Speed"
+    }
+  ]
+}

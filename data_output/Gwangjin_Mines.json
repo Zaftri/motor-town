@@ -1,0 +1,40 @@
+{
+  "Name": "Gwangjin Mines",
+  "Type": "",
+  "Location": "Oji Island",
+  "Production Tables": [
+    {
+      "Input": [],
+      "Input Capacity": "200",
+      "Output": {
+        "name": "Coal",
+        "amount": 1
+      },
+      "Process Time": "05:00",
+      "Output Capacity": "",
+      "raw_input_string": "",
+      "raw_output_string": "1x Coal"
+    },
+    {
+      "Input": [
+        {
+          "name": "Fuel",
+          "amount": 3
+        },
+        {
+          "name": "WoodPlank 14ft",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "200",
+      "Output": {
+        "name": "Coal",
+        "amount": 30
+      },
+      "Process Time": "00:30",
+      "Output Capacity": "",
+      "raw_input_string": "3x Fuel 1x Woodplank 14ft",
+      "raw_output_string": "30x Coal"
+    }
+  ]
+}

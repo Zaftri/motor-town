@@ -1,0 +1,55 @@
+{
+  "Name": "Nivart Furniture Factory",
+  "Type": "",
+  "Location": "N/A",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "WoodPlank 14ft 5t",
+          "amount": 2
+        }
+      ],
+      "Output": {
+        "name": "Furniture",
+        "amount": 10
+      },
+      "Output Capacity": "unlimited",
+      "Input Capacity": [],
+      "Process Time": "",
+      "raw_input_string": "2x WoodPlank 14ft 5t",
+      "raw_output_string": "10x Furniture"
+    },
+    {
+      "Input": [
+        {
+          "name": "Plastic",
+          "amount": 1
+        }
+      ],
+      "Output": {
+        "name": "Furniture",
+        "amount": 10
+      },
+      "Output Capacity": "unlimited",
+      "Input Capacity": [],
+      "Process Time": "",
+      "raw_input_string": "1x Plastic",
+      "raw_output_string": "10x Furniture"
+    },
+    {
+      "Input": [
+        {
+          "name": "Fuel",
+          "amount": 1
+        }
+      ],
+      "Output": {},
+      "Output Capacity": "10%",
+      "Input Capacity": [],
+      "Process Time": "",
+      "raw_input_string": "1x Fuel",
+      "raw_output_string": "Production Speed"
+    }
+  ]
+}

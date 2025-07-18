@@ -1,0 +1,161 @@
+{
+  "Name": "Jeju Supermarket",
+  "Type": "",
+  "Location": "Jeju Island",
+  "Production Tables": [
+    {
+      "Input": [
+        {
+          "name": "Water Bottle Pallet",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "5",
+      "Output": {},
+      "Process Time": "40:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Water Bottle Pallet",
+      "raw_output_string": "Food Supply: 20%"
+    },
+    {
+      "Input": [
+        {
+          "name": "Rice Pallet",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "3",
+      "Output": {},
+      "Process Time": "30:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Rice Pallet",
+      "raw_output_string": "Food Supply: 10%"
+    },
+    {
+      "Input": [
+        {
+          "name": "Pumpkin Pallet",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "3",
+      "Output": {},
+      "Process Time": "30:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Pumpkin Pallet",
+      "raw_output_string": "Food Supply: 10%"
+    },
+    {
+      "Input": [
+        {
+          "name": "Cabbage Pallet",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "3",
+      "Output": {},
+      "Process Time": "30:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Cabbage Pallet",
+      "raw_output_string": "Food Supply: 10%"
+    },
+    {
+      "Input": [
+        {
+          "name": "Corn Pallet",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "3",
+      "Output": {},
+      "Process Time": "30:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Corn Pallet",
+      "raw_output_string": "Food Supply: 10%"
+    },
+    {
+      "Input": [
+        {
+          "name": "Orange Pallet",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "3",
+      "Output": {},
+      "Process Time": "30:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Orange Pallet",
+      "raw_output_string": "Food Supply: 10%"
+    },
+    {
+      "Input": [
+        {
+          "name": "Bean Pallet",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "3",
+      "Output": {},
+      "Process Time": "30:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Bean Pallet",
+      "raw_output_string": "Food Supply: 10%"
+    },
+    {
+      "Input": [
+        {
+          "name": "Cheese Pallet",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "3",
+      "Output": {},
+      "Process Time": "40:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Cheese Pallet",
+      "raw_output_string": "Food Supply: 20%"
+    },
+    {
+      "Input": [
+        {
+          "name": "Bread Pallet",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "3",
+      "Output": {},
+      "Process Time": "40:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Bread Pallet",
+      "raw_output_string": "Food Supply: 20%"
+    },
+    {
+      "Input": [
+        {
+          "name": "Meat Box",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "5",
+      "Output": {},
+      "Process Time": "12:00",
+      "Output Capacity": "",
+      "raw_input_string": "1x Meat Box",
+      "raw_output_string": "Food Supply: 30%"
+    },
+    {
+      "Input": [
+        {
+          "name": "Pallet of Toys",
+          "amount": 1
+        }
+      ],
+      "Input Capacity": "3",
+      "Output": {},
+      "Process Time": "",
+      "Output Capacity": "",
+      "raw_input_string": "1x Pallet of Toys",
+      "raw_output_string": ""
+    }
+  ]
+}
